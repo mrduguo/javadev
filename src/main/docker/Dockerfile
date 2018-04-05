@@ -1,6 +1,6 @@
 FROM mrduguo/java8
 
-ENTRYPOINT ["sh"]
+ENTRYPOINT ["bash"]
 
 RUN apt-get update --fix-missing && \
     apt-get -y \

@@ -7,7 +7,7 @@
 ```bash
 
 # ./gradlew
-docker run -it --rm mrduguo/javadev 
+docker run -v /d:/d -v javadev:/root -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):/usr/bin/docker --rm -it mrduguo/javadev
 
 ```
 
